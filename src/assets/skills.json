@@ -1,0 +1,21 @@
+[{
+  "skill":"JavaScript",
+  "fontAwesomeIconClass":"fab fa-js"
+},
+{
+  "skill":"React",
+  "fontAwesomeIconClass":"fab fa-react"
+},
+{
+  "skill":"Bootstrap",
+  "fontAwesomeIconClass":"fab fa-bootstrap"
+},
+{
+  "skill":"CSS3",
+  "fontAwesomeIconClass":"fab fa-css3-alt"
+},
+{
+  "skill":"HTML5",
+  "fontAwesomeIconClass":"fab fa-html5"
+}
+]

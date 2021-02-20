@@ -1,9 +1,12 @@
 import React from "react";
+import Bio from "../../components/Bio/Bio";
+import Skills from "../../components/Skills/Skills";
 
 const About = () => {
   return (
-    <div>
-      <h1>About page</h1>
+    <div className="container">
+      <Bio />
+      <Skills />
     </div>
   );
 };
