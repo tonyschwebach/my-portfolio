@@ -7,6 +7,8 @@ import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 
+
+// TODO: change BrowserRouter to HashRouter when deploying to github pages
 function App() {
   return (
     <div className="App">
@@ -19,8 +21,8 @@ function App() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
-
-      <Footer />
+{/* TODO: make a sticky footer  */}
+      {/* <Footer /> */}
     </div>
   );
 }
