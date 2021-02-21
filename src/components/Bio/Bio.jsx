@@ -1,24 +1,25 @@
 import React from "react";
+import "./Bio.css";
+import headshot from "../../assets/img/headshot.jpg";
 
 const Bio = () => {
   return (
     <>
-      <div className="row">
+      <div className="row mt-5">
         <div className="col">
-          <h1>About Me</h1>
+          <h1>Tony Schwebach</h1>
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <img
-            alt="Tony Schwebach professional"
-            src="https://placedog.net/300/300"
-          />
+      <div className="row mt-3 justify-content-around">
+        <div className="col-md-3">
+          <img id="headshot" alt="Tony Schwebach professional" src={headshot} />
+        </div>
+        <div className="col-md-8 px-4">
           <p>
             I'm Tony Schwebach, a junior software engineer leveraging my
             corporate accounting and finance experience to build better business
             applications. I earned a certificate in full stack web development
-            from the Georgia Institute of Technology to evolving my coding hobby
+            from the Georgia Institute of Technology to evolve my coding hobby
             into a career. I program using the MERN stack, SQL, and Python. I
             excel at working with internal and external partners at all levels
             of an organization.
@@ -28,21 +29,23 @@ const Bio = () => {
             Prior to enrolling in the GT Bootcamp, I was an Accounting Director.
             I maintain my Certified Management Accountant license through the
             Institute of Management Accountants. I also have a Masters of
-            Business Administration degree. In my accounting career, I
-            taught myself SQL and Visual Basic to streamline processes and
-            enhance analytics. I led accounting teams in operational
-            accounting (Accounts Payable, Accounts Receivable, and Billing),
-            general ledger, and analytics. More info regarding my professional
+            Business Administration degree. In my accounting career, I taught
+            myself SQL and Visual Basic to streamline processes and enhance
+            analytics. I led teams in analytics, treasury, operational
+            accounting, and general ledger. More info regarding my professional
             career can be seen on{" "}
-            <a target="_blank" href="https://www.linkedin.com/in/tonyschwebach">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/tonyschwebach"
+            >
               LinkedIn
             </a>
             .
           </p>
           <p>
-            I enjoy physical activities like hiking with my dogs and lifting
-            weights. I also enjoy playing board games with friends and creating
-            Arduino projects.
+            I hiking with my wife and dogs and lifting weights. I also enjoy
+            playing board games with friends and creating Arduino projects.
           </p>
         </div>
       </div>

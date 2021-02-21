@@ -1,0 +1,16 @@
+#headshot {
+  height: 250px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: white;
+}
+p {
+  text-align: left;
+  color: white;
+}
+
+a{
+  color: aqua;
+}

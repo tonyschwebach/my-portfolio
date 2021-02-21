@@ -2,7 +2,6 @@ h1 {
   color: white;
   font-family: "Exo", sans-serif;
   padding-bottom: 10px;
-
   border-bottom: rgba(255, 255, 255, 0.575) solid 2px;
 }
 
@@ -16,7 +15,7 @@ h6 {
   color: white;
 }
 
-.container {
+#jumbotron {
   margin-top: 10%;
 }
 
