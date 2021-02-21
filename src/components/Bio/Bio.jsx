@@ -5,7 +5,7 @@ const Bio = () => {
     <>
       <div className="row">
         <div className="col">
-          <h2>About Me</h2>
+          <h1>About Me</h1>
         </div>
       </div>
       <div className="row">
