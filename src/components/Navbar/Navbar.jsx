@@ -9,10 +9,10 @@ const Navbar = () => {
           Tony Schwebach
         </a>
         <a href="https://github.com/tonyschwebach" target="_blank" rel="noreferrer">
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github nav-icon fa-lg"></i>
         </a>
         <a href="https://www.linkedin.com/in/tonyschwebach/" target="_blank" rel="noreferrer">
-        <i className="fab fa-linkedin"></i>
+        <i className="fab fa-linkedin nav-icon fa-lg"></i>
         </a>
 
 
