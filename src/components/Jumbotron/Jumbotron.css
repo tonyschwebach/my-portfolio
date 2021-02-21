@@ -1,0 +1,30 @@
+h1 {
+  color: white;
+  font-family: "Exo", sans-serif;
+  padding-bottom: 10px;
+
+  border-bottom: rgba(255, 255, 255, 0.575) solid 2px;
+}
+
+h5 {
+  margin-top: 2rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+h6 {
+  color: white;
+}
+
+.container {
+  margin-top: 10%;
+}
+
+.btn-primary{
+margin-right: 1rem;
+
+}
+
+.btn-secondary{
+  margin-left: 1rem;
+}
