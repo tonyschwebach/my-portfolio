@@ -1,38 +1,38 @@
 [{
   "skill":"JavaScript",
-  "fontAwesomeIconClass":"fab fa-js fa-4x"
+  "fontAwesomeIconClass":"fab fa-js fa-4x skills-icon"
 },
 {
   "skill":"React",
-  "fontAwesomeIconClass":"fab fa-react fa-4x"
+  "fontAwesomeIconClass":"fab fa-react fa-4x skills-icon"
 },
 {
   "skill":"Bootstrap",
-  "fontAwesomeIconClass":"fab fa-bootstrap fa-4x"
+  "fontAwesomeIconClass":"fab fa-bootstrap fa-4x skills-icon"
 },
 {
   "skill":"CSS3",
-  "fontAwesomeIconClass":"fab fa-css3-alt fa-4x"
+  "fontAwesomeIconClass":"fab fa-css3-alt fa-4x skills-icon"
 },
 {
   "skill":"HTML5",
-  "fontAwesomeIconClass":"fab fa-html5 fa-4x"
+  "fontAwesomeIconClass":"fab fa-html5 fa-4x skills-icon"
 },
 {
   "skill":"mySQL",
-  "fontAwesomeIconClass":"fas fa-database fa-4x"
+  "fontAwesomeIconClass":"fas fa-database fa-4x skills-icon"
 },
 {
   "skill":"MongoDB",
-  "fontAwesomeIconClass":"fas fa-database fa-4x"
+  "fontAwesomeIconClass":"fas fa-database fa-4x skills-icon"
 },
 {
   "skill":"Node",
-  "fontAwesomeIconClass":"fab fa-node fa-4x"
+  "fontAwesomeIconClass":"fab fa-node fa-4x skills-icon"
 }
 ,
 {
   "skill":"Python",
-  "fontAwesomeIconClass":"fab fa-python fa-4x"
+  "fontAwesomeIconClass":"fab fa-python fa-4x skills-icon"
 }
 ]

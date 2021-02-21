@@ -10,7 +10,7 @@ const About = () => {
       <Bio />
       <Skills />
       <h2 className="mt-3">Resume</h2>
-      <a href={resume}><i className="fas fa-file fa-4x"></i></a>
+      <a href={resume}><i className="fas fa-file fa-4x skills-icon"></i></a>
       <p className="text-center mb-5">Resume</p>
     </div>
   );

@@ -2,6 +2,8 @@ import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ContactInfo from "../../components/ContactInfo/ContactInfo";
 
+
+
 const Contact = () => {
   return (
     <div className="container">
