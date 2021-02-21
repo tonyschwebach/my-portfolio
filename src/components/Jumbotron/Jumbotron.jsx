@@ -25,12 +25,12 @@ const Jumbotron = () => {
       <div className="row justify-content-center">
         <div className="col">
           <a href="/portfolio">
-            <button type="button" class="btn btn-primary">
+            <button type="button" className="btn btn-primary">
               My Portfolio
             </button>
           </a>
           <a href="/contact">
-            <button type="button" class="btn btn-secondary">
+            <button type="button" className="btn btn-secondary">
               Contact Me
             </button>
           </a>

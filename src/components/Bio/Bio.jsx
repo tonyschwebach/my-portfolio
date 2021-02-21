@@ -33,7 +33,7 @@ const Bio = () => {
             myself SQL and Visual Basic to streamline processes and enhance
             analytics. I led teams in analytics, treasury, operational
             accounting, and general ledger. More info regarding my professional
-            career can be seen on{" "}
+            career can be found on{" "}
             <a
               target="_blank"
               rel="noreferrer"
@@ -44,7 +44,7 @@ const Bio = () => {
             .
           </p>
           <p>
-            I hiking with my wife and dogs and lifting weights. I also enjoy
+            I enjoy hiking with my wife and dogs and lifting weights. I also enjoy
             playing board games with friends and creating Arduino projects.
           </p>
         </div>

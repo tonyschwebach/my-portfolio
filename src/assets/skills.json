@@ -1,21 +1,38 @@
 [{
   "skill":"JavaScript",
-  "fontAwesomeIconClass":"fab fa-js"
+  "fontAwesomeIconClass":"fab fa-js fa-4x"
 },
 {
   "skill":"React",
-  "fontAwesomeIconClass":"fab fa-react"
+  "fontAwesomeIconClass":"fab fa-react fa-4x"
 },
 {
   "skill":"Bootstrap",
-  "fontAwesomeIconClass":"fab fa-bootstrap"
+  "fontAwesomeIconClass":"fab fa-bootstrap fa-4x"
 },
 {
   "skill":"CSS3",
-  "fontAwesomeIconClass":"fab fa-css3-alt"
+  "fontAwesomeIconClass":"fab fa-css3-alt fa-4x"
 },
 {
   "skill":"HTML5",
-  "fontAwesomeIconClass":"fab fa-html5"
+  "fontAwesomeIconClass":"fab fa-html5 fa-4x"
+},
+{
+  "skill":"mySQL",
+  "fontAwesomeIconClass":"fas fa-database fa-4x"
+},
+{
+  "skill":"MongoDB",
+  "fontAwesomeIconClass":"fas fa-database fa-4x"
+},
+{
+  "skill":"Node",
+  "fontAwesomeIconClass":"fab fa-node fa-4x"
+}
+,
+{
+  "skill":"Python",
+  "fontAwesomeIconClass":"fab fa-python fa-4x"
 }
 ]
