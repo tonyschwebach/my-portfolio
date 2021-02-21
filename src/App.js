@@ -9,6 +9,8 @@ import Contact from "./pages/Contact/Contact";
 
 
 // TODO: change BrowserRouter to HashRouter when deploying to github pages
+// TODO: add context for tracking current page for active tab and background
+
 function App() {
   return (
     <div className="App">

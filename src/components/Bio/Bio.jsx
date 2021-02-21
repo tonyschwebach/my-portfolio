@@ -34,7 +34,7 @@ const Bio = () => {
             analytics. I led teams in analytics, treasury, operational
             accounting, and general ledger. More info regarding my professional
             career can be found on{" "}
-            <a
+            <a className="bio-link"
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/tonyschwebach"

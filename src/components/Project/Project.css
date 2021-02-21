@@ -1,0 +1,16 @@
+.project-image{
+  width: 300px;
+  border-radius: 25px;
+}
+
+.project-title{
+  color:white;
+}
+
+.project-card{
+  background-color: rgba(1, 1, 19, 0.493);
+  border-radius: 25px;
+}
+span{
+  font-style: italic;
+}

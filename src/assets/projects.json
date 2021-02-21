@@ -3,8 +3,8 @@
     "title": "Employee Directory",
     "deployedURL": "https://tonyschwebach.github.io/employee-directory/",
     "githubRepoURL": "https://github.com/tonyschwebach/employee-directory",
-    "descriptionURL": "Employee Directory is an app which displays employees and their basic contact information. Users can search and sort employees.",
-    "imageURL": "",
+    "description": "Employee Directory is an app which displays employees and their basic contact information. Users can search and sort employees.",
+    "imageURL": "employee_directory.png",
     "gifURL": "",
     "technologiesUsed": ["React","Axios","JavaScript","Bulma CSS","Dynamic Search"]
   },
@@ -12,8 +12,8 @@
     "title": "Bird Brains",
     "deployedURL": "https://bird-brains.herokuapp.com/",
     "githubRepoURL": "https://github.com/tonyschwebach/bird-brains",
-    "descriptionURL": "Online community for bird watchers which gamifies the hobby by awarding points for each bird sighting.",
-    "imageURL": "",
+    "description": "Online community for bird watchers which gamifies the hobby by awarding points for each bird sighting.",
+    "imageURL": "bird_brains.png",
     "gifURL": "",
     "technologiesUsed": ["Node", "Express", "MySQL", "JawsDB","Heroku","Sequelize", "Handlebars", "ES Lint", "Materialize", "jQuery","JavaScript", "Cloudinary", "Slick"]
   },
@@ -21,8 +21,8 @@
     "title": "Burger logger",
     "deployedURL": "https://shielded-refuge-64505.herokuapp.com/",
     "githubRepoURL": "https://github.com/tonyschwebach/burger-logger",
-    "descriptionURL": "App for building and eating burgers using handlebars",
-    "imageURL": "",
+    "description": "App for building and eating burgers using handlebars",
+    "imageURL": "burger_logger.png",
     "gifURL": "",
     "technologiesUsed": ["Node", "Express", "MySQL", "JawsDB","Heroku","JavaScript"]
   },
@@ -30,8 +30,8 @@
     "title": "Employee Management Tool",
     "deployedURL": "https://github.com/tonyschwebach/employee-tracker",
     "githubRepoURL": "https://github.com/tonyschwebach/employee-tracker",
-    "descriptionURL": "Command Line Interface Human Resources program for tracking employees, managers, roles, and departments.",
-    "imageURL": "",
+    "description": "Command Line Interface Human Resources program for tracking employees, managers, roles, and departments.",
+    "imageURL": "employee_management_tool.png",
     "gifURL": "",
     "technologiesUsed": ["Regex","Node","JavaScript"]
   },
@@ -39,28 +39,11 @@
     "title": "Digital Coffee",
     "deployedURL": "https://tonyschwebach.github.io/digital-coffee/",
     "githubRepoURL": "https://github.com/tonyschwebach/digital-coffee",
-    "descriptionURL": "Homepage providing internet users with a positive quotes and images in a clean UI/UX.",
-    "imageURL": "",
+    "description": "Homepage providing internet users with a positive quotes and images in a clean UI/UX.",
+    "imageURL": "digital_coffee.png",
     "gifURL": "",
     "technologiesUsed": ["HTML", "Bootstrap CSS", "JavaScript", "AJAX", "Third-Party APIs" ]
-  },
-  {
-    "title": "JavaScript Trivia Game",
-    "deployedURL": "https://tonyschwebach.github.io/javascript-quiz-game/",
-    "githubRepoURL": "https://github.com/tonyschwebach/javascript-quiz-game",
-    "descriptionURL": "Users race the clock to set new high scores while being quizzed on their knowledge of Javascript through a series of multiple choice questions.",
-    "imageURL": "",
-    "gifURL": "",
-    "technologiesUsed": ["HTML", "Bootstrap CSS", "JavaScript","Local Storage"]
-  },
-  {
-    "title": "Weather Dashboard",
-    "deployedURL": "https://tonyschwebach.github.io/weather-dashboard/",
-    "githubRepoURL": "https://github.com/tonyschwebach/weather-dashboard",
-    "descriptionURL": "Displays current weather conditions and the 5 day forecast user requested locations",
-    "imageURL": "",
-    "gifURL": "",
-    "technologiesUsed": ["HTML", "Bootstrap CSS", "JavaScript","Local Storage","Third-Party APIs"]
   }
+
 
 ]
