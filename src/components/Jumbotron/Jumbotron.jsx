@@ -7,17 +7,17 @@ const Jumbotron = () => {
       <div className="row ">
         <div className="col">
           <h1>Software Engineer with Business Background</h1>
-              <h6>
+              <h5>
                 MERN Stack | Georgia Tech Coding Bootcamp | MBA | Certified
                 Management Accountant
-              </h6>
+              </h5>
           <div className="row justify-content-center">
             <div className="col-10">
-              <h5>
+              <h4>
                 I'm Tony Schwebach, a junior software engineer leveraging my
                 corporate accounting and finance experience to build better
                 business applications.
-              </h5>
+              </h4>
             </div>
           </div>
         </div>
