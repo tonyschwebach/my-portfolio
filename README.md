@@ -23,9 +23,9 @@ My online portfolio built with React.js.
 
 Visit the active webpage URL below. 
 
-URL for active webpage: [https://tonyschwebach.github.io/react-portfolio/](https://tonyschwebach.github.io/react-portfolio/)
+URL for active webpage: [https://tonyschwebach.github.io/my-portfolio/](https://tonyschwebach.github.io/my-portfolio/)
 
-URL for repository: [https://github.com/tonyschwebach/react-portfolio](https://github.com/tonyschwebach/react-portfolio)
+URL for repository: [https://github.com/tonyschwebach/my-portfolio](https://github.com/tonyschwebach/my-portfolio)
 
 ---
 
