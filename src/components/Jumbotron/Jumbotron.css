@@ -1,6 +1,7 @@
 h1 {
   color: white;
-  font-family: "Exo", sans-serif;
+  /* font-family: "Exo", sans-serif; */
+  font-family: 'Audiowide', cursive;
   padding-bottom: 10px;
   border-bottom: rgba(255, 255, 255, 0.575) solid 2px;
 }

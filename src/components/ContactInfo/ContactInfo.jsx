@@ -8,7 +8,7 @@ const ContactInfo = () => {
         <h2 className="px-4 pt-3 pb-3">Let's Connect!</h2>
         <h6 className="px-4 pt-3 pb-3 contact-info">
           <i className="far fa-envelope"></i> Email me at{" "}
-          <a href="mailto: tony.schwebach.developer@gmail.com">
+          <a className="bio-link" href="mailto: tony.schwebach.developer@gmail.com">
             tony.schwebach.developer@gmail.com
           </a>
         </h6>
@@ -21,6 +21,7 @@ const ContactInfo = () => {
         <h6 className="px-4 pb-3 contact-info">
           <i className="fab fa-linkedin"></i> Connect on{" "}
           <a
+          className="bio-link"
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/tonyschwebach/"
@@ -32,6 +33,7 @@ const ContactInfo = () => {
         <h6 className="px-4 pb-3 contact-info">
           <i className="fab fa-github-square"></i> Follow me on{" "}
           <a
+          className="bio-link"
             target="_blank"
             rel="noreferrer"
             href="https://github.com/tonyschwebach"
