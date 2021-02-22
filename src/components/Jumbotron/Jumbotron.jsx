@@ -1,4 +1,5 @@
 import React from "react";
+import { HashRouter as Router, Link } from "react-router-dom";
 import "./Jumbotron.css";
 
 const Jumbotron = () => {
@@ -23,18 +24,23 @@ const Jumbotron = () => {
         </div>
       </div>
       <div className="row justify-content-center">
+        <Router >
+
+
         <div className="col">
-          <a href="/portfolio">
+          <Link to="/portfolio">
             <button type="button" className="btn btn-info">
               My Portfolio
             </button>
-          </a>
-          <a href="/contact">
+          </Link>
+          <Link to="/contact">
             <button type="button" className="btn btn-secondary">
               Contact Me
             </button>
-          </a>
+          </Link>
         </div>
+
+        </Router>
       </div>
     </div>
   );
