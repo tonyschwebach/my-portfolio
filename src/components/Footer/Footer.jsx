@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import "./Footer.css"
 
 const Footer = () => {
-  return (
-    <footer>
-      Footer goes here
-    </footer>
-  );
+  return <footer class="footer">&copy;Copyright 2020 Tony Schwebach</footer>;
 };
 
 export default Footer;
