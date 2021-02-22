@@ -8,6 +8,7 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 
 // TODO: add context for tracking current page for active tab and background
+// TODO: readme
 
 function App() {
   return (
