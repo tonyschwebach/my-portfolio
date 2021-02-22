@@ -1,6 +1,6 @@
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router basename="/">
-        <Navbar />
+        <Header />
         <main className="page">
           <Switch>
             <Route exact path="/" component={Home} />
