@@ -1,12 +1,50 @@
 [
   {
+    "title": "Roam",
+    "deployedURL": "https://roam-together.com",
+    "githubRepoURL": "https://github.com/tonyschwebach/roam",
+    "description": "Roam is a group travel app which allows users to plan their trips together, share expenses, and create trip checklists.",
+    "imageURL": "roam.png",
+    "gifURL": "",
+    "technologiesUsed": [
+      "React",
+      "Express",
+      "Node.js",
+      "MongoDB",
+      "mongoose",
+      "Bulma",
+      "Node Sass",
+      "moment.js",
+      "bcrypt",
+      "json web token",
+      "express jwt",
+      "dotenv",
+      "axios",
+      "Cookies-parser",
+      "React-dates",
+      "react-router-dom",
+      "Chart.js",
+      "Google Places API",
+      "Cloudinary - Express File Upload",
+      "Figma",
+      "Canva"
+    ]
+  },
+
+  {
     "title": "Employee Directory",
     "deployedURL": "https://tonyschwebach.github.io/employee-directory/",
     "githubRepoURL": "https://github.com/tonyschwebach/employee-directory",
     "description": "Employee Directory is an app which displays employees and their basic contact information. Users can search and sort employees.",
     "imageURL": "employee_directory.png",
     "gifURL": "",
-    "technologiesUsed": ["React","Axios","JavaScript","Bulma CSS","Dynamic Search"]
+    "technologiesUsed": [
+      "React",
+      "Axios",
+      "JavaScript",
+      "Bulma CSS",
+      "Dynamic Search"
+    ]
   },
   {
     "title": "Bird Brains",
@@ -15,7 +53,21 @@
     "description": "Online community for bird watchers which gamifies the hobby by awarding points for each bird sighting.",
     "imageURL": "bird_brains.png",
     "gifURL": "",
-    "technologiesUsed": ["Node", "Express", "MySQL", "JawsDB","Heroku","Sequelize", "Handlebars", "ES Lint", "Materialize", "jQuery","JavaScript", "Cloudinary", "Slick"]
+    "technologiesUsed": [
+      "Node",
+      "Express",
+      "MySQL",
+      "JawsDB",
+      "Heroku",
+      "Sequelize",
+      "Handlebars",
+      "ES Lint",
+      "Materialize",
+      "jQuery",
+      "JavaScript",
+      "Cloudinary",
+      "Slick"
+    ]
   },
   {
     "title": "Burger logger",
@@ -24,7 +76,14 @@
     "description": "App for building and eating burgers using handlebars",
     "imageURL": "burger_logger.png",
     "gifURL": "",
-    "technologiesUsed": ["Node", "Express", "MySQL", "JawsDB","Heroku","JavaScript"]
+    "technologiesUsed": [
+      "Node",
+      "Express",
+      "MySQL",
+      "JawsDB",
+      "Heroku",
+      "JavaScript"
+    ]
   },
   {
     "title": "Employee Management Tool",
@@ -33,7 +92,7 @@
     "description": "Command Line Interface Human Resources program for tracking employees, managers, roles, and departments.",
     "imageURL": "employee_management_tool.png",
     "gifURL": "",
-    "technologiesUsed": ["Regex","Node","JavaScript"]
+    "technologiesUsed": ["Regex", "Node", "JavaScript"]
   },
   {
     "title": "Digital Coffee",
@@ -42,8 +101,12 @@
     "description": "Homepage providing internet users with a positive quotes and images in a clean UI/UX.",
     "imageURL": "digital_coffee.png",
     "gifURL": "",
-    "technologiesUsed": ["HTML", "Bootstrap CSS", "JavaScript", "AJAX", "Third-Party APIs" ]
+    "technologiesUsed": [
+      "HTML",
+      "Bootstrap CSS",
+      "JavaScript",
+      "AJAX",
+      "Third-Party APIs"
+    ]
   }
-
-
 ]
