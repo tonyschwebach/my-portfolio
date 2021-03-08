@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Navbar = () => {
   return (
-    <header>
+    <header className="mb-5">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Router>
           <div className="container-fluid">
