@@ -2,27 +2,31 @@ import React, { useState, setState } from "react";
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  const [formObject, setFormObject] = useState({name:"",email:"",message:""});
+  const [formObject, setFormObject] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
   function handleInputChange(e) {
     const { name, value } = e.target;
     setFormObject({ ...formObject, [name]: value });
   }
-  
+
   function handleFormSubmit(event) {
     event.preventDefault();
     if (formObject.name && formObject.email && formObject.message) {
       // TODO: add nodemailer
+      // TODO: create a toast for message sent
       // console.log(
       //   `Email form contents: ${formObject.name}, ${formObject.email}, ${formObject.message}`
       // );
-      setFormObject({name:"",email:"",message:""})
+      setFormObject({ name: "", email: "", message: "" });
     }
   }
 
   return (
-    // <div className="row">
-    <div className="col-md-6">
+    <div className="">
       <h2 className="px-2 pt-3">Message Me!</h2>
       <form onSubmit={handleFormSubmit}>
         <div className="form-group px-3">
@@ -38,7 +42,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="form-group px-3">
-          <label ></label>
+          <label></label>
           <input
             onChange={handleInputChange}
             name="email"
@@ -51,7 +55,7 @@ const ContactForm = () => {
         </div>
 
         <div className="form-group px-3">
-          <label ></label>
+          <label></label>
           <textarea
             onChange={handleInputChange}
             name="message"
@@ -62,16 +66,17 @@ const ContactForm = () => {
             placeholder="Message"
           ></textarea>
         </div>
-        <button
-          id="message-submit"
-          type="submit"
-          className="btn btn-info my-3"
-        >
-          Submit
-        </button>
+        <div className="form-group px-3">
+          <button
+            id="message-submit"
+            type="submit"
+            className="btn btn-primary px-3 my-3"
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
-    // </div>
   );
 };
 

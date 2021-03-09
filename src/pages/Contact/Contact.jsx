@@ -11,11 +11,17 @@ const Contact = () => {
         <Navbar />
         <div className="container">
           <div className="row mt-5">
-            <div className="col-12">
+            <div className="col text-center">
               <h1>Contact</h1>
             </div>
-            <ContactInfo />
-            <ContactForm />
+            <div className="row justify-content-center">
+              <div className="col-lg-5">
+                <ContactInfo />
+              </div>
+              <div className="col-lg-5">
+                <ContactForm />
+              </div>
+            </div>
           </div>
         </div>
       </div>

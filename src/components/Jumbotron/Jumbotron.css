@@ -17,7 +17,18 @@
   border:#588eda;
 }
 
-.btn-primary:hover {
+.btn-primary:hover{
+  margin-right: 1rem;
+  background-color: #588edada;
+  border:#588eda;
+}
+
+.btn-primary:active {
+  margin-right: 1rem;
+  background-color: #588edada;
+  border:#588eda;
+}
+.btn-primary:focus {
   margin-right: 1rem;
   background-color: #588edada;
   border:#588eda;
