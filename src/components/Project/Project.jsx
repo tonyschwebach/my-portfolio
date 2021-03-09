@@ -5,7 +5,7 @@ const Project = (props) => {
   let image = require("../../assets/img/" + props.imageURL);
   return (
     <div className="row mt-5 justify-content-between">
-      <div className="col-lg-2">
+      <div className="col-lg-2 text-center mb-2">
         <a href={props.deployedURL}>
           <img
             className="project-image"

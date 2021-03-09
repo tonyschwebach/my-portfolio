@@ -1,8 +1,12 @@
-.content-page{
+.content-page {
   background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding-bottom: 120px;
-  color:#122d53dc
+  color: #122d53dc;
+}
+.container{
+  /* margin-left: 10px;
+  margin-right: 10px; */
 }
