@@ -60,7 +60,7 @@ N/A
 
 ## Questions
 
-Please contact [tony.schwebach.developer@gmail.com](mailto:tony.schwebach.developer@gmail.com) or tonyschwebach on [Github](https://github.com/tonyschwebach/).
+Please contact [schwebach.dev@gmail.com](mailto:schwebach.dev@gmail.com) or tonyschwebach on [Github](https://github.com/tonyschwebach/).
 
 ---
 
