@@ -8,6 +8,7 @@ import Footer from "../../components/Footer/Footer";
 
 const About = () => {
   return (
+    <>
     <div id="about-page" className="content-page">
       <Navbar />
       <div className="container">
@@ -25,8 +26,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
+    <Footer />
+    </>
   );
 };
 

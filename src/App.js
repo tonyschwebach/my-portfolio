@@ -7,29 +7,25 @@ import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
 import PageContext from "./contexts/PageContext";
-import {useState} from "react";
+import { useState } from "react";
 
-  // "homepage": "https://tonyschwebach.github.io/my-portfolio",
+// "homepage": "https://tonyschwebach.github.io/my-portfolio",
 
 function App() {
-  const [pageContext,setPageContext] = useState("home");
+  const [pageContext, setPageContext] = useState("home");
 
   return (
-    // <div className="App">
-      <PageContext.Provider value={{pageContext,setPageContext}}>
-        <Router basename="/">
-          {/* <main className="page"> */}
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/portfolio" component={Portfolio} />
-              <Route path="/contact" component={Contact} />
-              <Route path="*" component={Home} />
-            </Switch>
-          {/* </main> */}
-        </Router>
-      </PageContext.Provider>
-    // </div>
+    <PageContext.Provider value={{ pageContext, setPageContext }}>
+      <Router basename="/">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
+          <Route path="*" component={Home} />
+        </Switch>
+      </Router>
+    </PageContext.Provider>
   );
 }
 
