@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
       <div className="row mt-3">
-        <div className="col">
+        <div className="col text-center">
           <h2>Skills</h2>
         </div>
       </div>
@@ -15,8 +15,8 @@ const Skills = () => {
         
           {/* for each skill, make an icon  */}
           {skills.map((skill)=>(
-          <div className="col-2">
-            <i className={skill.fontAwesomeIconClass}></i>
+          <div className="col-2 justify-content-center">
+            <p className="text-center mb-0"><i className={`${skill.fontAwesomeIconClass}`}></i></p>
             <p className="text-center">{skill.skill}</p>
           </div>))
           }

@@ -1,16 +1,23 @@
 #headshot {
   height: 250px;
+  border: rgba(211, 211, 211, 0.562) solid 1px;
   border-radius: 50px;
-}
-
-h1 {
-  color: white;
-}
-p {
-  text-align: left;
-  color: white;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 }
 
 .bio-link{
-  color: aqua;
+  color: #122d53dc;
+}
+
+.bio-link:hover{
+  color: #588EDA;
+}
+
+.bio-text{
+  background-color: white;
+  border: rgba(211, 211, 211, 0.562) solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  padding: 15px;
+  padding-bottom: 0px;
 }

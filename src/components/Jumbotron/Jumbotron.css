@@ -6,26 +6,13 @@
   border-bottom: rgba(255, 255, 255, 0.575) solid 2px;
 }
 
-h4 {
-  margin-top: 2rem;
-  color: white;
-  padding-bottom: 2rem;
-}
-
-h5 {
-  color: white;
-}
-
 #jumbotron {
-  margin-top: 20%;
+  margin-top: 15%;
   color:white
 }
 
 .btn-link{
 margin-right: 1rem;
-/* background-color:aqua;
-color:rgb(2, 2, 31) */
-
 }
 
 .btn-secondary{

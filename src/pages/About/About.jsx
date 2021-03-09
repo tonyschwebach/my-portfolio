@@ -9,25 +9,27 @@ import Footer from "../../components/Footer/Footer";
 const About = () => {
   return (
     <>
-    <div id="about-page" className="content-page">
-      <Navbar />
-      <div className="container">
-        <Bio />
-        <div className="row mt-3 justify-content-around">
-          <div className="col-md-3">
-            <h2 className="mt-3">Resume</h2>
-            <a href={resume}>
-              <i className="fas fa-file fa-4x skills-icon"></i>
-            </a>
-            <p className="text-center mb-5">Resume</p>
-          </div>
-          <div className="col-md-8 px-4">
-            <Skills />
+      <div id="about-page" className="content-page">
+        <Navbar />
+        <div className="container">
+          <Bio />
+          <div className="row mt-3 justify-content-around">
+            <div className="col-md-3 text-center">
+              <h2 className="mt-3">Resume</h2>
+              <a href={resume}>
+                <p className="text-center mb-0">
+                  <i className="fas fa-file fa-4x skills-icon"></i>
+                </p>
+              </a>
+              <p className="text-center mb-5">Resume</p>
+            </div>
+            <div className="col-md-8 px-4">
+              <Skills />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <Footer />
+      <Footer />
     </>
   );
 };

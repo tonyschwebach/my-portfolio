@@ -6,15 +6,15 @@ const Bio = () => {
   return (
     <>
       <div className="row mt-5">
-        <div className="col">
+        <div className="col text-center">
           <h1>Tony Schwebach</h1>
         </div>
       </div>
       <div className="row mt-3 justify-content-around">
-        <div className="col-md-3">
+        <div className="col-md-3 text-center">
           <img id="headshot" alt="Tony Schwebach professional" src={headshot} />
         </div>
-        <div className="col-md-8 px-4">
+        <div className="col-md-8 px-4 bio-text">
           <p>
             I'm Tony Schwebach, a junior software engineer leveraging my
             corporate accounting and finance experience to build better business
