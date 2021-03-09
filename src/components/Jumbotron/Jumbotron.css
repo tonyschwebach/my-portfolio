@@ -1,32 +1,43 @@
-h1 {
+.attention-getter {
   color: white;
   /* font-family: "Exo", sans-serif; */
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
   padding-bottom: 10px;
   border-bottom: rgba(255, 255, 255, 0.575) solid 2px;
 }
 
-h4 {
-  margin-top: 2rem;
-  color: white;
-  padding-bottom: 2rem;
-}
-
-h5 {
-  color: white;
-}
-
 #jumbotron {
-  margin-top: 10%;
+  margin-top: 15%;
+  color: white;
 }
 
-.btn-link{
-margin-right: 1rem;
-/* background-color:aqua;
-color:rgb(2, 2, 31) */
-
+.btn-primary {
+  margin-right: 1rem;
+  background-color: #588eda;
+  border:#588eda;
 }
 
-.btn-secondary{
+.btn-primary:hover{
+  margin-right: 1rem;
+  background-color: #588edada;
+  border:#588eda;
+}
+
+.btn-primary:active {
+  margin-right: 1rem;
+  background-color: #588edada;
+  border:#588eda;
+}
+.btn-primary:focus {
+  margin-right: 1rem;
+  background-color: #588edada;
+  border:#588eda;
+}
+
+.btn-light {
   margin-left: 1rem;
+}
+.btn-light:hover {
+  margin-left: 1rem;
+  background-color: rgba(245, 245, 245, 0.89);
 }

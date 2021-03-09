@@ -1,16 +1,27 @@
 .project-image{
   width: 300px;
   border-radius: 25px;
+  border: rgba(211, 211, 211, 0.562) solid 1px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
 }
 
 .project-title{
-  color:white;
+  color: #122d53dc;
+}
+
+.project-title:hover{
+  color: #588EDA;
 }
 
 .project-card{
-  background-color: rgba(1, 1, 19, 0.493);
-  border-radius: 25px;
+  background-color: white;
+  border: rgba(211, 211, 211, 0.562) solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  padding: 15px;
+  padding-bottom: 0px;
 }
+
 span{
   font-style: italic;
 }
