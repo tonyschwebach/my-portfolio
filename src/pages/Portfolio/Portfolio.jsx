@@ -15,9 +15,11 @@ const Portfolio = () => {
               <h1>Portfolio</h1>
             </div>
           </div>
-          {projects.map((project, index) => (
-            <Project {...project} key={index} />
-          ))}
+          <div>
+            {projects.map((project, index) => (
+              <Project {...project} key={index} />
+            ))}
+          </div>
         </div>
       </div>
       <Footer />

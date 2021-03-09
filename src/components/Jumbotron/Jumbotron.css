@@ -1,4 +1,4 @@
-h1 {
+.attention-getter {
   color: white;
   /* font-family: "Exo", sans-serif; */
   font-family: 'Audiowide', cursive;
@@ -17,7 +17,8 @@ h5 {
 }
 
 #jumbotron {
-  margin-top: 10%;
+  margin-top: 20%;
+  color:white
 }
 
 .btn-link{
