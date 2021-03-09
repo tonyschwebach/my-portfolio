@@ -11,14 +11,16 @@ const Portfolio = () => {
         <Navbar />
         <div className="container">
           <div className="row mt-5">
-            <div className="col">
+            <div className="col text-center">
               <h1>Portfolio</h1>
             </div>
           </div>
-          <div>
-            {projects.map((project, index) => (
-              <Project {...project} key={index} />
-            ))}
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              {projects.map((project, index) => (
+                <Project {...project} key={index} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

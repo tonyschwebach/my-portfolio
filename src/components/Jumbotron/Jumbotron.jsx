@@ -29,12 +29,12 @@ const Jumbotron = () => {
 
         <div className="col">
           <Link to="/portfolio">
-            <button type="button" className="btn btn-info">
+            <button type="button" className="btn btn-primary">
               My Portfolio
             </button>
           </Link>
           <Link to="/contact">
-            <button type="button" className="btn btn-secondary">
+            <button type="button" className="btn btn-light">
               Contact Me
             </button>
           </Link>

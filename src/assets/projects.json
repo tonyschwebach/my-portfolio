@@ -48,7 +48,7 @@
   },
   {
     "title": "Bird Brains",
-    "deployedURL": "https://bird-brains.herokuapp.com/",
+    "deployedURL": "https://www.bird-brains.com/",
     "githubRepoURL": "https://github.com/tonyschwebach/bird-brains",
     "description": "Online community for bird watchers which gamifies the hobby by awarding points for each bird sighting.",
     "imageURL": "bird_brains.png",
