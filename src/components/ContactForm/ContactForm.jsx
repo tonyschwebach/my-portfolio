@@ -33,7 +33,7 @@ const ContactForm = () => {
   };
 
   const onSubmit = () => {
-    console.log("new msg")
+
     const templateParams = {
       name: formObject.name,
       email: formObject.email,
@@ -49,7 +49,7 @@ const ContactForm = () => {
       .then((res) => {
         setFormObject({ name: "", email: "", message: "" });
         toastifySuccess();
-        console.log("success")
+
       })
       .catch((err) => console.log(err));
   };
