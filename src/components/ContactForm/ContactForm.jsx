@@ -1,7 +1,10 @@
 import React, { useState, setState } from "react";
 import "./ContactForm.css";
+import {useForm} from 'react-hook-form';
 
 const ContactForm = () => {
+  const { register, errors, handleSubmit, reset } = useForm();
+
   const [formObject, setFormObject] = useState({
     name: "",
     email: "",
