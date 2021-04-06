@@ -1,9 +1,12 @@
 import React, { useState, setState } from "react";
 import "./ContactForm.css";
-import {useForm} from 'react-hook-form';
+import { useForm } from "react-hook-form";
+import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 
 const ContactForm = () => {
-  const { register, errors, handleSubmit, reset } = useForm();
+  const { errors, handleSubmit, reset } = useForm();
 
   const [formObject, setFormObject] = useState({
     name: "",
@@ -16,22 +19,43 @@ const ContactForm = () => {
     setFormObject({ ...formObject, [name]: value });
   }
 
-  function handleFormSubmit(event) {
-    event.preventDefault();
-    if (formObject.name && formObject.email && formObject.message) {
-      // TODO: add nodemailer
-      // TODO: create a toast for message sent
-      // console.log(
-      //   `Email form contents: ${formObject.name}, ${formObject.email}, ${formObject.message}`
-      // );
-      setFormObject({ name: "", email: "", message: "" });
-    }
-  }
+  const toastifySuccess = () => {
+    toast("Message sent!", {
+      // position: "bottom-right",
+      autoClose: 3000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      className: "submit-feedback success",
+      toastId: "notifyToast",
+    });
+  };
+
+  const onSubmit = () => {
+    const templateParams = {
+      name: formObject.name,
+      email: formObject.email,
+      message: formObject.message,
+    };
+    emailjs
+      .send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_USER_ID
+      )
+      .then((res) => {
+        setFormObject({ name: "", email: "", message: "" });
+        toastifySuccess();
+      })
+      .catch((err) => console.log(err));
+  };
 
   return (
     <div className="">
       <h2 className="px-2 pt-3">Message Me!</h2>
-      <form onSubmit={handleFormSubmit}>
+      <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
         <div className="form-group px-3">
           <label></label>
           <input
@@ -79,6 +103,7 @@ const ContactForm = () => {
           </button>
         </div>
       </form>
+      <ToastContainer />
     </div>
   );
 };

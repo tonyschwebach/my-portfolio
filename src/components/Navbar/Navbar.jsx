@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router, Link } from "react-router-dom";
 import "./Navbar.css";
 
+
 const Navbar = () => {
   return (
     <header className="mb-5">

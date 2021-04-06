@@ -1,5 +1,6 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import Form2 from "../../components/ContactForm/Form2";
 import ContactInfo from "../../components/ContactInfo/ContactInfo";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
@@ -20,6 +21,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-5">
                 <ContactForm />
+                {/* <Form2 /> */}
               </div>
             </div>
           </div>
