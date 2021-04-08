@@ -16,7 +16,7 @@ function App() {
 
   return (
     <PageContext.Provider value={{ pageContext, setPageContext }}>
-      <Router basename="/">
+      <Router >
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />

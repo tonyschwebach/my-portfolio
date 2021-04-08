@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className="mb-5">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Router>
+        {/* <Router> */}
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               Tony Schwebach
@@ -59,7 +59,7 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </Router>
+        {/* </Router> */}
       </nav>
     </header>
   );

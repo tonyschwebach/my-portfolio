@@ -24,7 +24,7 @@ const Jumbotron = () => {
         </div>
       </div>
       <div className="row justify-content-center">
-        <Router >
+        {/* <Router > */}
 
 
         <div className="col">
@@ -40,7 +40,7 @@ const Jumbotron = () => {
           </Link>
         </div>
 
-        </Router>
+        {/* </Router> */}
       </div>
     </div>
   );
