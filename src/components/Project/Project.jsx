@@ -6,7 +6,7 @@ const Project = (props) => {
   return (
     <div className="row mt-5 justify-content-between">
       <div className="col-lg-2 text-center mb-2">
-        <a href={props.deployedURL}>
+        <a href={props.deployedURL} target="_blank" rel="noreferrer">
           <img
             className="project-image"
             alt="project pic"
@@ -16,7 +16,12 @@ const Project = (props) => {
       </div>
       <div className="col-lg-8 project-card ">
         <h2>
-          <a className="project-title" href={props.deployedURL}>
+          <a
+            className="project-title"
+            href={props.deployedURL}
+            target="_blank"
+            rel="noreferrer"
+          >
             {props.title}
           </a>
         </h2>
@@ -25,12 +30,12 @@ const Project = (props) => {
           <span>Technologies Used:</span> {props.technologiesUsed.join(", ")}
         </p>
         <div className="mt-auto mb-2">
-          <a href={props.deployedURL}>
+          <a href={props.deployedURL} target="_blank" rel="noreferrer">
             <button type="button" className="btn btn-primary mb-2">
               Deployed App
             </button>
           </a>
-          <a href={props.githubRepoURL}>
+          <a href={props.githubRepoURL} target="_blank" rel="noreferrer">
             <button type="button" className="btn btn-light mb-2">
               GitHub Repo
             </button>

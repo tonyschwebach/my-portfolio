@@ -1,5 +1,18 @@
 [
   {
+    "title": "Cold Truth Culture",
+    "deployedURL": "https://www.coldtruthculture.io/",
+    "githubRepoURL": "https://github.com/ColdTruthCulture/ctc-react",
+    "description": "Informational website about NFT artist group and their crypto currency.",
+    "imageURL": "ctc.png",
+    "gifURL": "",
+    "technologiesUsed": [
+      "React",
+      "Node.js",
+      "AWS"
+    ]
+  },
+  {
     "title": "Roam",
     "deployedURL": "https://roam-together.com",
     "githubRepoURL": "https://github.com/tonyschwebach/roam",

@@ -15,7 +15,7 @@ const Jumbotron = () => {
           <div className="row justify-content-center pt-5 pb-4">
             <div className="col">
               <h3 >
-                I'm Tony Schwebach, a junior software engineer leveraging my
+                I'm Tony Schwebach, a software engineer leveraging my
                 corporate accounting and finance experience to build better
                 business applications.
               </h3>
